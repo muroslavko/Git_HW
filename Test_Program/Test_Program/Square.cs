@@ -13,5 +13,10 @@ namespace Test_Program
             double square = 2 * Math.PI * r;
             return square;
         }
+
+        public double Rectangle(double a)
+        {
+            return a * a;
+        }
     }
 }
