@@ -8,9 +8,11 @@ namespace Test_Program
 {
     class Square
     {
+		double pi;
+		
 		public Square()
 		{
-			
+			pi = 3.14;
 		}
 		
         public double Circle(double r)
