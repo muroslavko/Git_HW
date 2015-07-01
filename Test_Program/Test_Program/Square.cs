@@ -8,5 +8,9 @@ namespace Test_Program
 {
     class Square
     {
+        public double Circle(double r)
+        {
+            return 2 * Math.PI * r;
+        }
     }
 }
