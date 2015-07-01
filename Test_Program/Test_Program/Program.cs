@@ -14,7 +14,8 @@ namespace Test_Program
         }
         static string Time()
         {
-            return DateTime.Now.Hour.ToString();
+            TimeClass time = new TimeClass();
+            return time.ShowTime();
         }
     }
 }
