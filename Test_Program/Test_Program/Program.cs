@@ -10,6 +10,11 @@ namespace Test_Program
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("This is {0} o'clock",Time());
+        }
+        static string Time()
+        {
+            return DateTime.Now.Hour.ToString();
         }
     }
 }
